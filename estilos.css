@@ -1,0 +1,68 @@
+*, hmtl {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(14, 14, 12);
+}
+
+nav{
+    background-color: rgb(14, 14, 12);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+}
+
+nav div img{
+    width: 200px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+   /* font-family: 'Dosis', sans-serif; */
+    font-size: 20px;
+    color: rgb(246, 246, 209);
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 500ms;
+    border-bottom: 1px solid rgba(246, 246, 209, 0) rgba(43, 147, 72, 0);
+}
+
+nav ul li a:hover {
+    color: rgb(233, 220, 39);
+    border-bottom: 1px solid rgb(233, 220, 39);
+}
+
+.carta{
+    margin-left: 17%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.card{
+    margin-right: 2.5%;
+    margin-right: 2.5%;
+    text-align: center;
+}
+
+.card-title, .card-text{
+    color: rgb(105, 105, 105);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+}
+
+
+.card-img-top{
+    margin-top: 13px;
+}
